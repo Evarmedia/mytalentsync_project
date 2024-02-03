@@ -5,15 +5,16 @@
 }
 
 .faqs__txt {
-  /* width: 80%; */
+  
   line-height: 2;
-  color: #667085;
+  color: #0a0d11;
 }
 
 .faqs__header {
+  
   color: var(--gray-800, #1d2939);
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 50px;
   letter-spacing: -0.96px;
   margin: 1rem 0;
@@ -29,8 +30,8 @@
 .faqs__box {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
+  justify-content: space-evenly;
+  border-bottom: 2px solid black;
   padding: 20px 20px 10px;
 }
 
@@ -39,18 +40,17 @@
 }
 
 .faqs__box h3 {
+  cursor: pointer;
   font-size: medium;
   line-height: 1.5;
   font-size: 16px;
 }
 
 .faqs__one {
-  /* flex: 1; */
   width: 40%;
 }
 
 .faqs__two {
-  /* flex: 1; */
   width: 53%;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .item {
-  background: #d7d7d7;
+  background: #636262af;
   margin: 0.5rem 0 1rem;
   padding: 20px;
   display: flex;

@@ -10,11 +10,16 @@ import { FaTwitter, FaFacebook, FaLinkedin, FaInstagram, FaYoutube } from 'react
 
 
 function Footer() {
+  const date = new Date();
+  const year = date.getFullYear();
+  
   return (
     <div className="app__footer">
       <div className="footer__main">
         <div className='main-one'>
+          <a href="home">
           <img className="logo" src={Logo} />
+          </a>
           <p>
             ClearLink is your gateway to effortless, high-quality video
             conferencing. Join us in shaping the future of communication!
@@ -53,13 +58,14 @@ function Footer() {
             <li>Contact</li>
         </ul>
         <div className="app__logo">
-            <p>Get the app</p>
+            <p>Get app</p>
             <img src={App} />
             <img src={Play} />
         </div>
       </div>
       <div className="copyright">
-        <p>© 2023 ClearLink. All rights reserved.</p>
+        <p>&copy; {year} ClearLink.</p>
+        <a href="#">
         <span className="socials">
           <FaTwitter />
           <FaLinkedin />
@@ -67,6 +73,9 @@ function Footer() {
           <FaInstagram />
           <FaYoutube />
         </span>
+
+        </a>
+        
       </div>
     </div>
   );

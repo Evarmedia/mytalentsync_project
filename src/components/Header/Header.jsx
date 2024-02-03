@@ -1,6 +1,5 @@
 // import React from "react";
 import "./Header.css";
-// import dropDown from "./../../Images/Icon.png";
 
 function Header() {
   return (
@@ -23,11 +22,11 @@ function Header() {
               fill="#53B1FD"
             />
           </svg>
-          <div className="logo-name">ClearLink</div>
+          <div className="logo-name">Clearlink</div>
         </div>
         <div className="nav-list">
           <div className="nav-item">
-            <div className="nav-item-title">Product</div>
+            <div className="nav-item-title">Products</div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="19"
@@ -80,7 +79,25 @@ function Header() {
               />
             </svg>
           </div>
-          <div className="nav-item-title">Pricing</div>
+
+          <div className="nav-item">
+            <div className="nav-item-title">Pricing</div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="18"
+              viewBox="0 0 19 18"
+              fill="none"
+            >
+              <path
+                d="M5.19183 6.75L9.69183 11.25L14.1918 6.75"
+                stroke="#667085"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
         </div>
         <div className="nav-button">
           <button className="talkToSales">Talk to Sales</button>

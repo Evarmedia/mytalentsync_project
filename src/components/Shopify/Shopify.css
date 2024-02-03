@@ -1,4 +1,5 @@
 .shopify-container {
+  
   width: 100%;
   display: flex;
   align-items: center;
@@ -36,6 +37,7 @@
 }
 
 .shopify-review {
+  
   align-items: center;
   justify-content: space-between;
   padding-right: 30px;
@@ -48,31 +50,27 @@
 
 .shopify-header {
   color: var(--gray-900, #101828);
-  font-size: 30px;
+  font-size: 35px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 40px;
-  /* 136.364% */
+  font-weight: 400;
+  line-height: 45px;
   width: 80%;
   letter-spacing: -0.2px;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .shopify-star {
-  margin-top: 30px;
+  margin-top: 2.5rem;
 }
 
 .shopify-review {
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .shopify-text-name {
   color: var(--gray-900, #101828);
   font-size: 17px;
-  font-style: normal;
-  font-weight: 600;
-  /* line-height: 30px; */
-  /* 150% */
+  font-weight: 700;
 }
 
 .shopify-text-title {
@@ -81,9 +79,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  /* 155.556% */
 }
 
 .whyCLcontent-icon {
-  box-shadow: 0px 0px 5px 0px gray;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 0px gray;
 }

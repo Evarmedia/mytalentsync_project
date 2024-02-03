@@ -3,8 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* gap: 5rem; */
-  background: white;
+  background: rgba(189, 189, 189, 0.13);
 }
 
 .main-one {
@@ -14,11 +13,11 @@
 .main-one p {
   margin: 3rem 0;
   line-height: 1.7;
-  color: #667085;
+  color: #000000;
 }
 
 .footer__main ul {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .footer__main ul li {
@@ -28,8 +27,9 @@
 }
 
 .footer__title {
-  color: #667085;
-  font-size: medium;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
 }
 
 .app__logo {
@@ -48,7 +48,7 @@
   display: flex;
   justify-content: space-between;
   padding: 2rem 97px;
-  background-color: #f9fafb;
+  background-color: #2b94fd;
 }
 
 .socials {
@@ -61,10 +61,11 @@
   /* fill: gray; */
   outline: none;
   /* stroke: transparent; */
-  color: gray;
+  color: rgb(255, 255, 255);
 }
 
 .copyright p {
-  color: #667085;
-  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
 }

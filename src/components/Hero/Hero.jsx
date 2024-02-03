@@ -7,9 +7,9 @@ function Hero() {
     <div className="hero">
       <div className="Hero-title-container">
         <h2 className="Hero-title">
-          Uniting the world,
+          Uniting the world.
           <br />
-          one video call at a time
+          One video call at a time.
         </h2>
         <p className="hero-subtitle">
           Experience the future of communication with ClearLink -<br /> where

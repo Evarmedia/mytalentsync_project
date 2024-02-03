@@ -59,20 +59,20 @@ function Faqs() {
   return (
     <div className="app__faqs">
       <div className="faqs__one">
-        <p className="support">Support</p>
+        <p className="support">Customer Support</p>
         <p className="faqs__header">FAQs</p>
         <p className="faqs__txt">
           Everything you need to know about the product and billing. Can’t find
           the answer you’re looking for? Please chat to our friendly team.
         </p>
       </div>
-      <div className="faqs__two" key={data.id}>
-        {data.map((dat, i) => {
+      <div className="faqs__two">
+        {data.map((data, i) => {
           return (
             <div className={selected === i ? "item" : "faqs__box"} key = {i}>
               <div>
-                <h3 onClick={() => toggle(i)}>{dat.question}</h3>
-                <p className={selected === i ? "show" : "content"}>{dat.answer}</p>
+                <h3 onClick={() => toggle(i)}>{data.question}</h3>
+                <p className={selected === i ? "show" : "content"}>{data.answer}</p>
               </div>
               <div>
                 <img onClick={() => toggle(i)} src={selected === i ? Minus : Plus} />

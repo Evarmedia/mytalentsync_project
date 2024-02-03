@@ -4,7 +4,7 @@ import "./CTA.css";
 import CTAImg from "../../images/cta.png";
 import Check from "../../images/check-circle.png";
 
-function CTA() {
+const CTA = () => {
   return (
     <div className="app__cta">
       <div className="cta__text">
